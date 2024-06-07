@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✨Youssef AlAdgham✨</title>
+<style>
+  /* تنسيقات CSS الخاصة بالموقع */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    position: relative;
+    padding-bottom: 60px; /* Leave space for the footer */
+  }
+  .header {
+    background-color: #000;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+  }
+  .department {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    width: 90%;
+    max-width: 800px; /* Max width for large screens */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  .button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%; /* Button width */
+  }
+  .welcome-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+  }
+  .footer {
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    position: absolute; /* Keep footer at the bottom but not fixed */
+    bottom: 0;
+    width: 100%;
+  }
+  .footer a {
+    color: gold;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">✨Youssef AlAdgham✨</div>
+
+<div class="welcome-message" id="welcomeMessage">
+  <p>"Youssef Al-Adgham welcomes you"</p>
+  <button onclick="hideWelcomeMessage()">Welcome</button>
+</div>
+
+<div class="department">
+  <h2>Youssef Al-Adgham Department</h2>
+  <a href="https://poe.com/Nasrapp" class="button">Chat AI</a>
+  <a href="https://www.chatpdf.com/" class="button">Chat PDF</a>
+  <a href="https://www.croxyproxy.rocks/" class="button">Proxy</a>
+  <a href="https://www.onlinedoctranslator.com/ar/translationform" class="button">ترجمة الملفات</a>
+  <a href="https://www.virustotal.com/gui/home/upload" class="button">فحص Links</a>
+  <a href="https://t.me/qvfwn_bot" class="button">تحميل اي فيديوهات</a>
+</div>
+
+<div class="department">
+  <h2>M. pdf</h2>
+  <a href="https://www.ilovepdf.com/ar/powerpoint_to_pdf" class="button">ppt to pdf</a>
+  <a href="https://www.ilovepdf.com/ar/word_to_pdf" class="button">Word to pdf</a>
+  <a href="https://www.ilovepdf.com/ar/excel_to_pdf" class="button">Excel to pdf</a>
+  <a href="https://www.ilovepdf.com/ar/jpg_to_pdf" class="button">تحويل الصور إلى pdf</a>
+  <a href="https://www.ilovepdf.com/ar/pdf_to_powerpoint" class="button">حول pdf إلى ppt</a>
+  <a href="https://www.ilovepdf.com/ar/organize_pdf" class="button">إعادة تنظيم pdf</a>
+</div>
+
+<div class="department">
+  <h2>قسم القران الكريم</h2>
+  <a href="https://surahquran.com/" class="button">المصحف</a>
+  <a href="https://www.islambook.com/azkar/1/أذكار-الصباح" class="button">الاذكار</a>
+</div>
+
+<div class="footer">
+  <a href="https://www.facebook.com/share/XU4SZb8xFgnkdUuW/?mibextid=qi2Omg">Facebook</a>
+  <p>حقوق النشر والطبع يوسف الادغم</p>
+</div>
+
+<script>
+  function hideWelcomeMessage() {
+    document.getElementById('welcomeMessage').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
